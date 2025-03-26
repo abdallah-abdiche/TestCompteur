@@ -1,0 +1,94 @@
+ body{
+    background-color: #1E2126;
+ }
+ #counter{
+    color: aliceblue;
+ display: block;
+ text-align: center;
+ font-size: 100px;
+ font-family: Arial, Helvetica, sans-serif;
+  }      
+  #counter:hover{
+    
+
+    background-color: rgba(34, 11, 11, 0.89);
+    transition: 2s;
+  }
+  #btnCount{
+   text-align: center;
+   
+
+  } 
+.buttons{
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: darkblue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 3s linear steps(1);
+}
+.buttons:active{
+ background-color: cadetblue;
+}
+
+  /* animation: colorchange 5s infinite; */
+  dd{
+    cursor: pointer;
+    background-color: blueviolet;
+   width: 100px;
+   height: 100px;
+   animation-name: anime;
+   animation-duration: 3s;
+   animation-delay: 0.5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+
+  }
+
+@keyframes anime{
+    0%{
+        translate: 0 0;
+        background-color: rgb(208, 125, 17);
+    rotate:  20deg;
+    }
+    25%{
+       translate: 0 500px;
+       background-color: rgb(37, 121, 123);
+       rotate: 100deg;
+    }
+    50%{
+        translate: 300px 500px;
+        background-color: blue;
+    }
+    75%{
+     background-color: black;
+        translate: 300px 0;
+    }
+    100%{
+translate: 0 0;
+background-color: chartreuse;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* background-color: #1E2126; */
